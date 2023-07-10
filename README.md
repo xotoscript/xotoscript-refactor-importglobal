@@ -2,7 +2,7 @@
 
 the script allows to fix all paths in your project after a refactor following a speicifc logic
 
-### how it works
+➡️ how it works
 the script uses several node.js modules to perform the conversion. here is a summary of the steps involved:
 
 parse file: this function takes a file path as an argument and parses the file to extract the file name. it then uses the file name to create a regular expression that will match the existing import path. it then replaces the existing import path with a new, standardized import path using the replaceinfiles function.
