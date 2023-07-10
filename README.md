@@ -11,7 +11,7 @@ replace import path: this function takes two arguments - oldimportpath and newim
 
 convert: this function searches for all the files that need to be converted using the glob module. it then iterates over each file and calls the parsefile function to replace the import paths in each file.
 
-### how to use it
+➡️ how to use it
 to use this script, you should follow these steps:
 
 1. clone the repository that contains the script.
